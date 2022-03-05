@@ -67,7 +67,7 @@ if sidebar == 'Application':
                              'ATH', 'K/P', 'K', 'P', 'LS'))
     
     # load defailt weights for each position, set default weights for position selected
-    position_weights_df = pd.read_excel('C:/Users/kingl/Desktop/Projects/football/vandy-score-metric/Vandy 5star Metric worksheet.xlsx', sheet_name='weights_pivot')
+    position_weights_df = pd.read_csv('https://raw.githubusercontent.com/kingla6/vandy-star-score/main/default_weights.csv')
     default_weights = position_weights_df[position_weights_df.position==position]
     
     # on-field
