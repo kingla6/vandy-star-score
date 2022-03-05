@@ -49,7 +49,7 @@ if sidebar == 'Main':
     # Page Content
     st.markdown("<h2 style='text-align: center;'>Main Page</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>Through the navigation sidebar, the main and application pages can be accessed.</h3>", unsafe_allow_html=True)
-    st.markdown("<h3 style='text-align: center;'>For documentation, code, and all other relevant files, see the <a href='https://github.com/kingla6/recruit-score-scraper'>project repo</a>.</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>For documentation, code, and all other relevant files, see the <a href='https://github.com/kingla6/vandy-star-score'>project repo</a>.</h3>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1,1,1]) # this allows us to center the image by selecting col2 in next line
     col2.image(vandy, use_column_width=True)
     st.markdown("<h4 style='text-align: center;'>Developed by Logan King, Graduate Recruiting and Scouting Assistant - Vanderbilt Football</h4>", unsafe_allow_html=True)
