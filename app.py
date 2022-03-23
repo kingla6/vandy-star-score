@@ -28,7 +28,7 @@ def score_output(on_field_weights, on_field_score, off_field_weights, off_field_
                 c1.title(f'{round(on_field_score,1)}'),
                 c2.title('Off-Field Score:'),
                 c2.title(f'{round(off_field_score,1)}'),
-                c3.title('Star Score:'),
+                c3.title('McGugin Metric:'),
                 c3.title(f'{round(star_score,1)}')
             )
     
