@@ -35,7 +35,7 @@ def score_output(on_field_weights, on_field_score, off_field_weights, off_field_
 # format app to fill screen width
 st.set_page_config(layout="wide")
 # set main title of application
-st.markdown("<h1 style='text-align: center;'>Star Score Calculator</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>McGugin Metric Calculator</h1>", unsafe_allow_html=True)
 
 # create sidebar with multiple options
 sidebar = st.sidebar.selectbox("Navigation", ("Main", "Application"))
