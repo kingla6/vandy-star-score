@@ -89,8 +89,8 @@ if sidebar == 'Application':
     multi_position_scaled = minmax_scaler(multi_position, 3)
     c11.write(f'Scaled Multi-Position Grade: {multi_position_scaled}')
     ### multi_sport
-    multi_sport = c11.slider('Multi-Sport', 1, 4, 1)
-    multi_sport_scaled = minmax_scaler(multi_sport, 4)
+    multi_sport = c11.slider('Multi-Sport', 1, 3, 1)
+    multi_sport_scaled = minmax_scaler(multi_sport, 3)
     c11.write(f'Scaled Multi-Sport Grade: {multi_sport_scaled}')
     ### production
     production = c11.slider('Production', 1, 5, 3)
